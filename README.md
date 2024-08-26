@@ -18,3 +18,15 @@ go run cmd/main.go
 ```
 
 The application will create a sqlite file in the folder specified in the .env file and create a table (`messages`) to store the messages from RabbitMQ.
+
+Build:
+
+- Windows:
+```bash
+make build-windows
+```
+
+- Linux/mac
+```bash
+make build
+```
