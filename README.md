@@ -22,6 +22,7 @@ The application will create a sqlite file in the folder specified in the .env fi
 Build:
 
 - Windows:
+    - It is required to have gcc installed (https://sourceforge.net/projects/tdm-gcc/)
 ```bash
 make build-windows
 ```
